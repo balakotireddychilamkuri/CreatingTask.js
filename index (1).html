@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+        <div class="item">
+            <div class="header">
+                <h3>To - Do - List</h3>
+            </div>
+            <div class="content">
+                <div class="subportion">
+                    <div class="addtask">
+                        <input type="text" id="searchInput" placeholder="Search...Task">
+                        <input type="text" id="inputValue" placeholder="Progress Of the Project">
+                    </div>
+                    <div >
+                        <button class="addb" onclick="addRow()">Add</button>
+                    </div>
+                </div>
+                <div class="tasks">
+                    <table id="dataTable">
+                        <!-- <tr>
+                            <th>Task Name</th>
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="C" name="C" value="C"/>
+                                <input></input>   
+                            </td>
+                            <td>
+                                <select name="Status" id="status">
+                                    <option value="in-progress">In-Progress</option>
+                                    <option value="completed">Completed</option>
+                                    <option value="status" selected disabled hidden>Status</option>
+                                </select>
+                                <button>x</button>
+                            </td>
+                        </tr>--> 
+                        <thead>
+                        </thead>
+                    <!-- -->    <tbody>
+                        </tbody>  
+                    </table>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+  </body>
+</html>
